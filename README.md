@@ -282,3 +282,208 @@ The proposed BF-IT2FIDS achieves outstanding multiclass intrusion detection perf
 | Macro F1-score | **99.75%** |
 
 ---
+📊 Evaluation Metrics
+
+The proposed framework is evaluated using standard multiclass classification metrics:
+
+- Accuracy
+- Precision
+- Recall
+- Macro F1-score
+- Weighted F1-score
+- Classification Report
+- Confusion Matrix
+- Learning Curves
+- Risk Score Analysis
+- Multi-Seed Performance Statistics
+
+---
+
+🔬 Training Strategy
+
+To ensure stable optimization and strong generalization, BF-IT2FIDS incorporates the following training techniques:
+
+- Stratified Train/Validation/Test Split
+- RobustScaler fitted only on the training set (prevents data leakage)
+- Interval Type-2 Bipolar Fuzzy Feature Expansion
+- AdamW Optimizer
+- Cosine Annealing Learning Rate Scheduler
+- Batch Normalization
+- Dropout Regularization
+- Class-Weighted Cross-Entropy Loss
+- Gradient Clipping
+- Early Stopping
+- Best Model Checkpoint Selection
+
+---
+
+🔁 Reproducibility
+
+This implementation is designed to be fully reproducible.
+
+The repository includes:
+
+- Fixed random seed initialization
+- Multi-seed evaluation
+- Data leakage verification
+- Duplicate sample audit
+- Overfitting and underfitting analysis
+- Publication-quality visualizations
+- Learning curves
+- Confusion matrix generation
+- Automated performance reporting
+
+---
+
+📷 Output Artifacts
+
+Running the training pipeline generates:
+
+- Learning Curves
+- Confusion Matrix
+- Classification Report
+- Risk Score Analysis
+- Multi-Seed Performance Summary
+- Performance Logs
+- Publication-Ready Figures
+
+---
+
+📄 Citation
+
+If you use this repository in your research, please cite the associated paper.
+
+@article{Mirza2026BFIT2FIDS,
+  title={BF-IT2FIDS: A Bipolar Fuzzy--Interval Type-2 Hybrid Framework for Robust Intrusion Detection in Edge-IIoT Applications},
+  author={Mirza, Mudassar Hussain and Others},
+  journal={Under Review},
+  year={2026}
+}
+
+---
+
+👨‍💻 Author
+
+Mirza Mudassar Hussain
+
+Ph.D. Research Scholar (Mathematics)
+University of the Punjab, Lahore, Pakistan
+
+Research Interests
+
+- Artificial Intelligence
+- Deep Learning
+- Cybersecurity
+- Intrusion Detection Systems
+- Fuzzy Systems
+- Machine Learning
+- Graph Neural Networks
+- Scientific Computing
+
+---
+
+📬 Contact
+
+For questions, collaborations, or research discussions, please feel free to contact:
+
+Mirza Mudassar Hussain
+
+📧 Email: your_email@example.com
+
+🐙 GitHub: https://github.com/Mirza-PU
+
+💼 LinkedIn: https://www.linkedin.com/in/your-profile
+
+🎓 Google Scholar: https://scholar.google.com/citations?user=YOUR_ID
+
+🆔 ORCID: https://orcid.org/0000-0000-0000-0000
+
+«Replace the placeholders above with your actual contact information before publishing.»
+
+---
+
+🤝 Contributing
+
+Contributions are welcome and appreciated.
+
+If you have suggestions for improvements, discover bugs, or would like to contribute new features, please:
+
+1. Fork the repository.
+2. Create a new feature branch.
+3. Commit your changes.
+4. Submit a Pull Request.
+
+Please ensure that any contributed code follows the existing coding style and includes appropriate documentation.
+
+---
+
+🐞 Issues
+
+If you encounter any problems while using BF-IT2FIDS, please open an issue on GitHub.
+
+Issue Tracker
+
+https://github.com/Mirza-PU/BF-IT2FIDS/issues
+
+---
+
+📜 License
+
+This project is licensed under the MIT License.
+
+See the "LICENSE" file for additional information.
+
+---
+
+🙏 Acknowledgements
+
+The authors gratefully acknowledge:
+
+- The developers of the Edge-IIoTset dataset.
+- The PyTorch development team.
+- The Scikit-learn community.
+- The NumPy and Pandas development teams.
+- The open-source scientific computing community for providing outstanding tools and libraries.
+
+---
+
+⭐ Support the Project
+
+If you find this repository useful in your research, please consider:
+
+- ⭐ Starring this repository
+- 🍴 Forking the repository
+- 📚 Citing our paper
+- 🤝 Sharing it with the research community
+
+Your support helps increase the visibility of this work and encourages future development.
+
+---
+
+📌 Project Status
+
+Current Status: Active Research
+
+Future updates may include:
+
+- Additional benchmark datasets
+- Explainable AI (XAI) analysis
+- Attention-enhanced fuzzy architectures
+- Graph Neural Network extensions
+- Transformer-based intrusion detection models
+
+---
+
+<p align="center"><strong>BF-IT2FIDS</strong><br>
+
+Bipolar Fuzzy Interval Type-2 Fuzzy Intrusion Detection System
+
+<br><br>
+
+Developed for robust, uncertainty-aware, and intelligent intrusion detection in Industrial Internet of Things (IIoT) environments.
+
+<br><br>
+
+© 2026 Mirza Mudassar Hussain. All Rights Reserved.
+
+</p>
