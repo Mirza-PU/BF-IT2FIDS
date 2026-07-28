@@ -28,3 +28,36 @@ BF-IT2FIDS/
 ├── main.py                # Main execution script for training and evaluation
 ├── requirements.txt       # Required Python packages
 └── README.md              # Project documentation
+---
+
+## ⚙️ Hyperparameter Configuration
+
+The framework uses the following verified hyperparameter settings:
+
+| Pipeline Component | Hyperparameter Name | Selected Value / Setting |
+| :--- | :--- | :--- |
+| **Data Preprocessing** | Scaler Type | Robust Scaler (Median / IQR) |
+| | Missing Value / Imputation | Median Imputation with $\epsilon = 10^{-6}$ |
+| **Fuzzy Feature Expansion** | Lower Gaussian Spread ($\sigma_1^2$) | $0.7$ |
+| | Upper Gaussian Spread ($\sigma_2^2$) | $0.3$ |
+| | Sigmoidal Scaling Factor ($\alpha_1$) | $1.0$ |
+| | Expanded Feature Dimension | $4 \times M$ ($M$ = Original Features) |
+| **Deep Neural Network (MLP)** | Hidden Layer Dimensions | $[512, 256, 128]$ |
+| | Activation Function | Rectified Linear Unit (ReLU) |
+| | Batch Normalization | Applied after Layers 1 and 2 |
+| | Dropout Probabilities ($p_1, p_2$) | $p_1 = 0.4$ (Layer 1), $p_2 = 0.3$ (Layer 2) |
+| | Optimizer | AdamW ($\beta_1 = 0.9, \beta_2 = 0.999$) |
+| | Initial Learning Rate ($\eta_{\max}$) | $0.001$ |
+| | Weight Decay ($\lambda$) | $10^{-4}$ |
+| **Training Strategy** | Loss Function | Class-Weighted Cross-Entropy |
+| | Learning Rate Scheduler | Cosine Annealing |
+| | Gradient Clipping Norm ($L_2$) | $\le 1.0$ |
+
+---
+
+## 📥 Installation & Setup
+
+1. **Clone the repository:**
+   ```bash
+   git clone [https://github.com/Mirza-PU/BF-IT2FIDS.git](https://github.com/Mirza-PU/BF-IT2FIDS.git)
+   cd BF-IT2FIDS
