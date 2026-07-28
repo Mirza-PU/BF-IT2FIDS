@@ -398,8 +398,6 @@ Mirza Mudassar Hussain
 
 🆔 ORCID: https://orcid.org/0009-0002-1897-5458
 
-«Replace the placeholders above with your actual contact information before publishing.»
-
 ---
 
 🤝 Contributing
