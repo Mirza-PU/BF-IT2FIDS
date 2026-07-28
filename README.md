@@ -388,15 +388,15 @@ For questions, collaborations, or research discussions, please feel free to cont
 
 Mirza Mudassar Hussain
 
-📧 Email: your_email@example.com
+📧 Email: muddasser.mh@gmail.com
 
 🐙 GitHub: https://github.com/Mirza-PU
 
-💼 LinkedIn: https://www.linkedin.com/in/your-profile
+💼 LinkedIn: https://www.linkedin.com/in/mirza-mudassar-hussain
 
 🎓 Google Scholar: https://scholar.google.com/citations?user=YOUR_ID
 
-🆔 ORCID: https://orcid.org/0000-0000-0000-0000
+🆔 ORCID: https://orcid.org/0009-0002-1897-5458
 
 «Replace the placeholders above with your actual contact information before publishing.»
 
