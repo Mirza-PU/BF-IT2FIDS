@@ -16,20 +16,6 @@ Official PyTorch implementation of the framework presented in the paper: **"BF-I
 * **State-of-the-Art Performance:** Achieves **99.75% Accuracy** and a **0.9975 Macro $F_1$-score** across 15 complex attack classes on the Edge-IIoTset benchmark.
 
 ---
-
-## 📁 Repository Structure
-
-```text
-BF-IT2FIDS/
-│
-├── data/                  # Dataset directory (Edge-IIoTset preprocessing scripts)
-├── models/                # Architecture definitions (BF-IT2F expansion and MLP)
-├── utils/                 # Imputation, scaling, and evaluation metric helpers
-├── main.py                # Main execution script for training and evaluation
-├── requirements.txt       # Required Python packages
-└── README.md              # Project documentation
----
-
 ## ⚙️ Hyperparameter Configuration
 
 The framework uses the following verified hyperparameter settings:
@@ -61,3 +47,17 @@ The framework uses the following verified hyperparameter settings:
    ```bash
    git clone [https://github.com/Mirza-PU/BF-IT2FIDS.git](https://github.com/Mirza-PU/BF-IT2FIDS.git)
    cd BF-IT2FIDS
+
+## 📁 Repository Structure
+
+```text
+BF-IT2FIDS/
+│
+├── data/                  # Dataset directory (Edge-IIoTset preprocessing scripts)
+├── models/                # Architecture definitions (BF-IT2F expansion and MLP)
+├── utils/                 # Imputation, scaling, and evaluation metric helpers
+├── main.py                # Main execution script for training and evaluation
+├── requirements.txt       # Required Python packages
+└── README.md              # Project documentation
+---
+
