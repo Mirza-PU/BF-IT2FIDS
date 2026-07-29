@@ -51,65 +51,9 @@ Unlike conventional intrusion detection systems that directly process raw featur
 # 🏗 BF-IT2FIDS Pipeline
 
 ```
-Raw Edge-IIoT Dataset
-          │
-          ▼
-──────────────────────────────
-Data Cleaning
-• Missing Values
-• Encoding
-──────────────────────────────
-          │
-          ▼
-RobustScaler
-          │
-          ▼
-──────────────────────────────
-Bipolar Interval Type-2
-Fuzzy Feature Engineering
-
-Lower Membership
-
-Upper Membership
-
-Positive Membership
-
-Negative Membership
-
-Expanded Features = 4 × Original Features
-──────────────────────────────
-          │
-          ▼
-Deep Regularized MLP
-
-Input
- │
-512
- │
-BatchNorm
- │
-ReLU
- │
-Dropout (0.4)
- │
-256
- │
-BatchNorm
- │
-ReLU
- │
-Dropout (0.3)
- │
-128
- │
-ReLU
- │
-Output Layer
- │
-Softmax
-          │
-          ▼
-Attack Prediction
+<p align="center">
+<img src="bf_it2fids_architecture.png" width="650">
+</p>
 ```
 
 ---
