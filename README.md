@@ -53,7 +53,6 @@ Unlike conventional intrusion detection systems that directly process raw featur
 <p align="center">
 <img src="bf_it2fids_architecture.png" width="650">
 </p>
----
 
 # 🚀 Features
 
