@@ -50,12 +50,9 @@ Unlike conventional intrusion detection systems that directly process raw featur
 
 # 🏗 BF-IT2FIDS Pipeline
 
-```
 <p align="center">
 <img src="bf_it2fids_architecture.png" width="650">
 </p>
-```
-
 ---
 
 # 🚀 Features
