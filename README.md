@@ -216,10 +216,10 @@ The proposed BF-IT2FIDS achieves outstanding multiclass intrusion detection perf
 
 | Metric | Score |
 |---------|-------|
-| Accuracy | **99.75%** |
+| Accuracy | **99.65%** |
 | Precision | **99.75%** |
 | Recall | **99.75%** |
-| Macro F1-score | **99.75%** |
+| Macro F1-score | **99.11%** |
 
 ---
 📊 Evaluation Metrics
